@@ -83,7 +83,7 @@ customer-segmentation/
 │   
 ├── requirements.txt                 # List of dependencies
 │
-├── report.pdf                       # Detailed report on analysis and clustering methods
+├── Intellihack_Task2.pdf                       # Detailed report on analysis and clustering methods
 │
 ├── README.md                        # Project documentation
 │
