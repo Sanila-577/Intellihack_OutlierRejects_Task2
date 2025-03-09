@@ -50,7 +50,8 @@ The goal of this project is to identify and visualize customer behavior patterns
 ## 🎯 Objective
 The goal of this project is to use a clustering algorithm to identify and visualize customer segments based on the provided features. We validated multiple models, including Agglomerative Clustering, Gaussian Mixture Models (GMM) and K-Means clustering. K-Means clustering was selected as the best model based on its performance and accuracy for this task.
 
-### 🛠️ Key features 
+# 🚀 Key Features
+
 ## 🧹 Data Cleaning & Preprocessing
 - **Handling Missing Data**: Addressed any missing values in the dataset.
 - **Feature Scaling**: Normalized features to ensure equal contribution to clustering.
@@ -78,7 +79,7 @@ customer-segmentation/
 ├── customer_behavior_analytcis.csv               # The dataset containing customer information
 │            
 │
-├── customer_segmentation.ipynb                   # Jupyter notebook for analysis and clustering
+├── Customer_segmentation.ipynb                   # Jupyter notebook for analysis and clustering
 │   
 ├── requirements.txt                 # List of dependencies
 │
@@ -128,7 +129,7 @@ To reproduce the clustering results and analysis, follow these steps:
 3. Open the Jupyter notebook to explore the customer segmentation analysis:
 
    ```bash
-   jupyter notebook customer_segmentation.ipynb
+   jupyter notebook Customer_segmentation.ipynb
    ```
 
 4. Run the cells in the notebook to execute the analysis.
