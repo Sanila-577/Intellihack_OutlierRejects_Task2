@@ -50,19 +50,23 @@ The goal of this project is to identify and visualize customer behavior patterns
 ## 🎯 Objective
 The goal of this project is to use a clustering algorithm to identify and visualize customer segments based on the provided features. We validated multiple models, including Agglomerative Clustering, Gaussian Mixture Models (GMM) and K-Means clustering. K-Means clustering was selected as the best model based on its performance and accuracy for this task.
 
-### 🛠️ Approach
+### 🛠️ Key features 
+## 🧹 Data Cleaning & Preprocessing
+- **Handling Missing Data**: Addressed any missing values in the dataset.
+- **Feature Scaling**: Normalized features to ensure equal contribution to clustering.
 
-1. **Data Preprocessing**:
-   - Handling missing values, if any.
-   - Feature scaling and normalization to ensure all features contribute equally to the clustering algorithm.
+## 🔍 Exploratory Data Analysis (EDA)
+- **Visualized Relationships**: Explored correlations between features using plots to understand patterns in customer behavior.
 
-2. **Clustering**:
-   - Apply **K-means clustering** to segment customers into 3 clusters.
-   - Use the **elbow method** for K-means to determine the optimal number of clusters and validate the results.
+## 🔧 Feature Engineering
+- **Created New Features**: Derived additional features to improve the clustering model's performance, such as scaling the numerical features.
 
-3. **Visualization**:
-   - Visualize the clustering results using scatter plots, pair plots, and other relevant charts.
-   - Analyze the characteristics of each cluster to identify the customer segments: Bargain Hunters, High Spenders, and Window Shoppers.
+## 🏗️ Model Building
+- **Clustering Models**: Validated multiple clustering algorithms (K-Means, Agglomerative Clustering, Gaussian Mixture Model). **K-Means** was selected based on performance and accuracy.
+
+## 📊 Model Evaluation
+- **Evaluation Metrics**: Used metrics like **silhouette score** and **elbow method** to evaluate and compare clustering performance.
+"""
 
 ---
 
@@ -115,30 +119,21 @@ To reproduce the clustering results and analysis, follow these steps:
    git clone https://github.com/Sanila-577/Intellihack_OutlierRejects_Task2.git
    ```
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd customer-segmentation
-   ```
-
-3. Install the required dependencies:
+2. Install the required dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Open the Jupyter notebook to explore the customer segmentation analysis:
+3. Open the Jupyter notebook to explore the customer segmentation analysis:
 
    ```bash
    jupyter notebook customer_segmentation.ipynb
    ```
 
-5. Run the cells in the notebook to execute the analysis, including:
-   - **Data Preprocessing**: Clean the data and scale features.
-   - **Clustering**: Run K-means to segment customers into clusters.
-   - **Visualization**: Examine the cluster visualizations to interpret the customer segments.
+4. Run the cells in the notebook to execute the analysis.
 
-6. **Optional**: View the detailed report in PDF format (`report.pdf`), which includes further details on the methodology, analysis, and results.
+5. **Optional**: View the detailed report in PDF format (`report.pdf`), which includes further details on the methodology, analysis and results.
 
 ---
 
